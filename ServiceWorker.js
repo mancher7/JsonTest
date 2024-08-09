@@ -1,9 +1,9 @@
 const cacheName = "TFLStudio-FootballTime-1.0";
 const contentToCache = [
-    "Build/JsonBuild.loader.js",
-    "Build/JsonBuild.framework.js.unityweb",
-    "Build/JsonBuild.data.unityweb",
-    "Build/JsonBuild.wasm.unityweb",
+    "Build/Build 3.loader.js",
+    "Build/Build 3.framework.js.unityweb",
+    "Build/Build 3.data.unityweb",
+    "Build/Build 3.wasm.unityweb",
     "TemplateData/style.css"
 
 ];
