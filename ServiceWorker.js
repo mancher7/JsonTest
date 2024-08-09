@@ -1,4 +1,4 @@
-const cacheName = "TFLStudio-FootballTime-1.1";
+const cacheName = "TFLStudio-FootballTime-1.0";
 const contentToCache = [
     "Build/JsonBuild.loader.js",
     "Build/JsonBuild.framework.js.unityweb",
