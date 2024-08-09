@@ -8,9 +8,7 @@
     <link rel="stylesheet" href="TemplateData/style.css">
     <link rel="manifest" href="manifest.webmanifest">
   </head>
-  <body>
-
-      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, orientation=landscape">
+  <body>   
 
       <div id="unity-container">
           <canvas id="unity-canvas" width=1980 height=1020 tabindex="-1"></canvas>
@@ -21,8 +19,10 @@
               </div>
           </div>
           <div id="unity-warning"> </div>
+          <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, orientation=landscape">
       </div>
       <script>
+
           window.addEventListener("load", function () {
               if ("serviceWorker" in navigator) {
                   navigator.serviceWorker.register("ServiceWorker.js");
